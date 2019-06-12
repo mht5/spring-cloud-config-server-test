@@ -1,0 +1,6 @@
+zuul:
+  routes:
+    hello-service: /hello-service/**
+    feign-consumer:
+      path: /feign-consumer/**
+      serviceId: feign-consumer
