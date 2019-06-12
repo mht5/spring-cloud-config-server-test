@@ -2,5 +2,5 @@ zuul:
   routes:
     hello-service: /hello-service/**
     feign-consumer:
-      path: /123/**
+      path: /feign/**
       serviceId: feign-consumer
